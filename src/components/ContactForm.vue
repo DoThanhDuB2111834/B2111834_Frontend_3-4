@@ -3,28 +3,32 @@
         <div class="form-group">
             <label for="name">Tên</label>
 
-            <Field name="name" type="text" class="form-control" v-model="contactLocal.name" />
+            <Field name="name" type="text" class="form-control" placeholder="Nhập vào tên"
+                v-model="contactLocal.name" />
 
             <ErrorMessage name="name" class="error-feedback" />
         </div>
         <div class="form-group">
             <label for="email">E-mail</label>
 
-            <Field name="email" type="email" class="form-control" v-model="contactLocal.email" />
+            <Field name="email" type="email" class="form-control" v-model="contactLocal.email"
+                placeholder="Nhập vào email" />
 
             <ErrorMessage name="email" class="error-feedback" />
         </div>
         <div class="form-group">
             <label for="address">Địa chỉ</label>
 
-            <Field name="address" type="text" class="form-control" v-model="contactLocal.address" />
+            <Field name="address" type="text" class="form-control" v-model="contactLocal.address"
+                placeholder="Nhập vào địa chỉ" />
 
             <ErrorMessage name="address" class="error-feedback" />
         </div>
         <div class="form-group">
             <label for="phone">Điện thoại</label>
 
-            <Field name="phone" type="tel" class="form-control" v-model="contactLocal.phone" />
+            <Field name="phone" type="tel" class="form-control" v-model="contactLocal.phone"
+                placeholder="Nhập vào số điện thoại" />
 
             <ErrorMessage name="phone" class="error-feedback" />
         </div>
